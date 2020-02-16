@@ -1,3 +1,5 @@
+// https://www.educative.io/courses/grokking-the-coding-interview/gx2OqlvEnWG
+
 const find_subsets = function(nums) {
   let subsets = [[]];
 
@@ -21,3 +23,6 @@ const find_subsets = function(nums) {
 
 console.log(`Here is the list of subsets:`, find_subsets([1, 3]))
 console.log(`Here is the list of subsets:`, find_subsets([1, 5, 3]))
+
+// TC = O(2^N)
+// SC = O(2^N)

@@ -1,5 +1,13 @@
 // https://www.educative.io/courses/grokking-the-coding-interview/gx2OqlvEnWG
 
+/*
+Input: [1, 3]
+Output: [], [1], [3], [1,3]
+
+Input: [1, 5, 3]
+Output: [], [1], [5], [3], [1,5], [1,3], [5,3], [1,5,3]
+*/
+
 const find_subsets = function(nums) {
   let subsets = [[]];
 
